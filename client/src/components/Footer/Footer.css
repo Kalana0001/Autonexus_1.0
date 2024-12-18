@@ -81,9 +81,9 @@ ul {
   display: grid;
   /* background-color: #f5b754; */
   background: linear-gradient(to bottom, #f5b754, #fdd835, #fbc02d);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for depth */
-  border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border for a frosted glass effect */
-  border-radius: 15px; /* Smooth edges */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 15px; 
 }
 
 .download__content {
@@ -330,5 +330,12 @@ ul {
 
   .footer__container {
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 768px) { 
+  .footer_header {
+    font-size: 2rem;
+    line-height: 2.5rem; 
+    letter-spacing: -1px; 
   }
 }

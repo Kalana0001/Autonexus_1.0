@@ -20,16 +20,19 @@
   outline: none;
   border: none;
   font-size: 1rem;
-  color: var(--white);
-  background-color: #474fa0;
+  color: #ffffff;
+  font-weight: bold;
+  background: #0f172a;
   white-space: nowrap;
   border-radius: 4px;
   transition: 0.3s;
+  transition: background-color 0.3s ease, color 0.3s ease;
   cursor: pointer;
 }
 
 .nav_btn:hover {
-  background-color: #3c4286;
+  background: linear-gradient(to bottom, #f5b754, #fbc02d);
+  color: #0f172a;
 }
 
 
@@ -96,7 +99,7 @@ header::before {
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
-  background-color: var(--primary-color);
+  background-color: #f5b754;
   transition: 0.5s;
   z-index: -1;
   transform: translateY(-100%);

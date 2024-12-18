@@ -25,7 +25,10 @@
   display: flex;
   width: 100%;
 }
-
+.page01_img1{
+  display: flex;
+  width: 100%;
+}
 a {
   text-decoration: none;
   transition: 0.3s;
@@ -102,6 +105,9 @@ ul {
 .banner__wrapper .page01_img {
   height: 100px;
 }
+.banner__wrapper .page01_img1 {
+  height: 100px;
+}
 
 @keyframes scroll {
   to {
@@ -125,5 +131,23 @@ ul {
 
   .story__grid {
     padding: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .banner__wrapper .page01_img1 {
+    height: 80px;
+  }
+  .page01_header{
+    font-size: 2rem; 
+    line-height: 2.5rem;
+  }
+  .story__card h4{
+    font-size: 1.3rem; 
+  }
+  .story__date span {
+    font-size: 2.5rem; 
+  }
+  .story__date div p{
+
   }
 }

@@ -73,7 +73,8 @@ body {
   right: 0;
   width: 100%;
   height: 50%;
-  background: linear-gradient(to bottom, #f5b754, #fdd835, #fbc02d);
+  background: linear-gradient(to bottom, #f79e0f, #fdd835, #fac132);
+  /* background: linear-gradient(to bottom, #f5b754, #fdd835, #fbc02d); */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 15px; 
@@ -89,6 +90,7 @@ body {
   color: #0f172a;
   line-height: 3.25rem;
   text-align: justify;
+  margin-top: 2rem; 
 }
 
 .landingheader_content .landing_h1::before {
@@ -144,5 +146,27 @@ body {
 
   .landingheader_content {
     grid-area: 1/1/2/3;
+  }
+
+}
+@media (max-width: 768px) {
+  .landingheader_content .landing_h1 {
+    font-size: 2rem; 
+    line-height: 2.5rem; 
+    margin-top: 5rem; 
+  }
+
+  .landingheader_content .landing_p {
+    font-size: 0.9rem; 
+    line-height: 1.5rem; 
+  }
+
+  .landingheader_container {
+    gap: 1rem; 
+    padding: 1rem; 
+  }
+  .landingheader_links{
+    align-items: center;
+    justify-content: center;
   }
 }

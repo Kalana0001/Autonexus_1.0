@@ -15,7 +15,7 @@ import img12 from '../../assets/story-2.jpg';
 import img13 from '../../assets/story-3.jpg';
 const Page01 = () => {
   return (
-    <div>
+    <div className='page01'>
     <section class="page1_container story__container">
       <h2 class="page01_header">STORIES BEHIND THE WHEEL</h2>
       <div class="story__grid">
@@ -69,18 +69,18 @@ const Page01 = () => {
 
     <section class="banner__container">
       <div class="banner__wrapper">
-        <img className='page01_img' src={img1}alt="banner" />
-        <img className='page01_img' src={img2}alt="banner" />
-        <img className='page01_img' src={img3}alt="banner" />
-        <img className='page01_img' src={img4}alt="banner" />
-        <img className='page01_img' src={img5}alt="banner" />
-        <img className='page01_img' src={img6}alt="banner" />
-        <img className='page01_img' src={img7}alt="banner" />
-        <img className='page01_img' src={img8}alt="banner" />
-        <img className='page01_img' src={img9}alt="banner" />
-        <img className='page01_img' src={img10}alt="banner" />
-        <img className='page01_img' src={img10}alt="banner" />
-        <img className='page01_img' src={img10}alt="banner" />
+        <img className='page01_img1' src={img1}alt="banner" />
+        <img className='page01_img1' src={img2}alt="banner" />
+        <img className='page01_img1' src={img3}alt="banner" />
+        <img className='page01_img1' src={img4}alt="banner" />
+        <img className='page01_img1' src={img5}alt="banner" />
+        <img className='page01_img1' src={img6}alt="banner" />
+        <img className='page01_img1' src={img7}alt="banner" />
+        <img className='page01_img1' src={img8}alt="banner" />
+        <img className='page01_img1' src={img9}alt="banner" />
+        <img className='page01_img1' src={img10}alt="banner" />
+        <img className='page01_img1' src={img10}alt="banner" />
+        <img className='page01_img1' src={img10}alt="banner" />
       </div>
     </section>
     </div>

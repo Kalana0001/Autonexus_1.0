@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "./Navbar_Landing.css";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export const Navbar_Landing = () => {
   const navLinksRef = useRef(null);
@@ -23,7 +24,6 @@ export const Navbar_Landing = () => {
     menuBtn.addEventListener("click", toggleMenu);
     navLinks.addEventListener("click", closeMenu);
 
-    // Cleanup event listeners on unmount
     return () => {
       menuBtn.removeEventListener("click", toggleMenu);
       navLinks.removeEventListener("click", closeMenu);
@@ -38,7 +38,7 @@ export const Navbar_Landing = () => {
             <a href="#">AutoNexus</a>
           </div>
           <div className="nav_menu_btn" id="menu-btn" ref={menuBtnRef} aria-label="Menu">
-            <i className="ri-menu-line" aria-hidden="true">A</i>
+            <i className="ri-menu-line" aria-hidden="true"><GiHamburgerMenu /></i>
           </div>
         </div>
         <ul className="nav_links" id="nav-links" ref={navLinksRef}>
@@ -55,8 +55,7 @@ export const Navbar_Landing = () => {
           </li>
         </ul>
         <div class="nav_btns">
-          <button class="nav_btn btn__primary">Sign Up</button>
-          <button class="nav_btn btn__secondary">Sign In</button>
+          <button class="nav_btn btn__secondary">Get Start</button>
         </div>
       </nav>
     </div>
