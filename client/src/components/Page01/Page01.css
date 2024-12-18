@@ -15,9 +15,7 @@
 .page01_header {
   font-size: 3.25rem;
   font-weight: 700;
-  font-family: "Syncopate", sans-serif;
   color: var(--text-dark);
-  letter-spacing: -5px;
   line-height: 4.25rem;
 }
 
@@ -76,9 +74,7 @@ ul {
 .story__card h4 {
   margin-bottom: 1rem;
   font-size: 1.5rem;
-  font-family: "Syncopate", sans-serif;
   font-weight: 700;
-  letter-spacing: -2px;
   line-height: 2rem;
   color: var(--text-dark);
 }
@@ -146,8 +142,5 @@ ul {
   }
   .story__date span {
     font-size: 2.5rem; 
-  }
-  .story__date div p{
-
   }
 }

@@ -14,7 +14,7 @@ const Footer = () => {
       <section className="download">
         <div className="footer_section download__container">
           <div className="download__content">
-            <h2 className="footer_header">PREMIUM CAR RENTAL</h2>
+            <h2 className="footer_header">Drive Easy, Embrace the Journey!</h2>
             <div className="download__links">
               <a href="#">
                 <img className='footer_img' src={img3} alt="Google Play Store" />

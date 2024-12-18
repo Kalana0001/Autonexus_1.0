@@ -27,7 +27,7 @@ const Page01 = () => {
               <p>2024</p>
             </div>
           </div>
-          <h4>Adventures on the Open Road</h4>
+          <h4>Adventures on the Open Road Sessions</h4>
           <p>
             Join us as we dive into the exhilarating stories of travelers who
             embarked on unforgettable journeys with PREMIUM CAR RENTAL.
